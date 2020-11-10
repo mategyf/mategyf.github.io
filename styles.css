@@ -1,0 +1,140 @@
+html {
+    font-size: 50%;
+}
+
+body {
+    margin:0;
+    background-image: url("assets/topography/topography.png");
+    font-family: 'Courier New', Courier, monospace;
+}
+
+
+.stickyHeader {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    height: 50px;
+    margin: 0;
+    /*    padding: 13px 0;*/
+    overflow: hidden;
+    background-color:#000000;
+}
+
+.topnav {
+    width: 80%;
+    margin: auto;
+}
+
+
+.topnav ul {
+    list-style-type: none;
+    padding: 0px;
+    /*    margin-top: 0px;
+    margin-bottom: 0px;*/
+    font-size: 0px;
+}
+
+.topnav a {
+    display: inline-block;
+}
+
+.topnav li.floatLeft {
+    float: left;
+    
+}
+
+.topnav li.floatRight {
+    float: right;
+}
+
+.topnav ul.inlineLinks li{
+    display: inline;
+}
+
+.topnav .logoImg {
+    padding: 9px;
+}
+
+.topnav .logoImg img {
+    width: 32px;
+    height: 32px;
+}
+
+.topnav .inlineLinks a {
+    color:#e95500;
+    box-sizing: border-box;
+    height: 50px;
+    line-height: 50px;
+    text-align: center;
+    /*    padding: 14px 14px;*/
+    /*    padding-top: ;
+    padding-bottom: ;*/
+    padding-left: 1vw;
+    padding-right: 1vw;
+    text-decoration: none;
+    font-size: 26px;
+    font-family: 'Nova Mono', monospace;
+}
+
+.topnav .inlineLinks a:hover {
+    background-color: #ddd;
+    color: black;
+}
+
+
+
+/* Styles for desktop: */
+@media only screen and (min-width: 600px) {
+   html {
+       font-size: 62.5%;
+       }
+
+}
+
+/* From here on, every style is the same for both mobile and desktop*/
+
+.mainContent {
+    width: 80%;
+    font-size: 1.8rem;
+    margin: auto;
+    padding-top: 70px;
+    text-align: justify;
+}
+
+.separator {
+    text-align: center;
+}
+
+.mainContent a {
+    text-decoration: none;
+}
+
+.mainContent a:link, a:visited {
+    color: #e95500;
+}
+
+.mainContent a:hover {
+    color: coral;
+}
+
+.mainContent a:active {
+    color: rgb(255, 0, 0);
+}
+
+h1 {
+    font-size: 3rem;
+}
+
+h1, h2, h3 {
+    font-family: 'Poppins', sans-serif;
+  }
+
+h2, h3 {
+    color: #e95500;
+}
+
+.notes {
+    width: 80%;
+    font-size: 1.6rem;
+    margin: 6rem auto;
+}
